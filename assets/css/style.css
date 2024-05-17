@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    list-style-type: none !important;
+    text-decoration: none !important;
+}
+
+.menu {
+    padding: 15px;
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+    left: 0%;
+    box-shadow: 0px 8px 35px 0px #0000000D;
+}
+
+.events {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48.6px;
+    text-align: left;
+    color: #2C49FE;
+}
+
+.free {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48.6px;
+    text-align: left;
+    color: #01C8FF;
+}
+
+.gap-15 {
+    gap: 15px;
+}
+
+.home {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+    text-shadow: -.25px -.25px 0 transparent,
+            .25px .25px transparent;
+}
+
+.home:hover {
+    text-shadow: -.25px -.25px 0 black,
+    .25px .25px black;
+}
+
+.gap-62 {
+    gap: 62px;
+}
+cursor{
+    cursor: pointer;
+}
+.outBtn {
+    width: 118px;
+    height: 46px;
+    padding: 11px 28px 11px 28px;
+    gap: 10px;
+    border-radius: 23px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+    background: #2C49FE;
+    border: none;
+    transition: all 400ms linear;
+}
+.outBtn:hover {
+    background: #2C49FE1A;
+    color: #000000;
+    box-shadow: 0px 0px 20px 0px #2C49FE;
+}
+.gap-56 {
+    gap: 56px;
+}
+
+.gap-30 {
+    gap: 30px;
+}
+
+.gap-64 {
+    gap: 64px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:992px) {
+    .lg-view {
+            position: absolute;
+            height: 100vh;
+            background: #FFFFFF;
+            flex-direction: column;
+            justify-content: center;
+            top: 0%;
+            right: -100%;
+            width: 100%;
+            transition: all 0.3s linear;
+        }
+    
+        .right-0 {
+            right: 0%;
+        }
+
+}
+
+@media (max-width:576px) {
+    .w-28{
+        width: 28%;
+    }
+    .f-w-25{
+        font-size: 25px;
+    }
+}
