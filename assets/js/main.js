@@ -1,5 +1,5 @@
-let navicon = document.querySelector(".nav-icon");
-let lgview = document.querySelector(".menulist");
-navicon.addEventListener("click", function () {
-    lgview.classList.toggle("");
+let menuicon = document.querySelector(".menuicon");
+let menulist = document.querySelector(".menulist");
+menuicon.addEventListener("click", function () {
+    menulist.classList.toggle("show");
 })

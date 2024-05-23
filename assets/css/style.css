@@ -758,7 +758,12 @@
     line-height: 48.6px;
     margin-top: 25px;
 }
-
+.ten:hover svg path{
+    fill: red;
+}
+.msg:hover svg path{
+    fill: blue;
+}
 
 .icon:hover svg path {
     fill: orangered;
@@ -889,9 +894,8 @@
 }
 
 .home:hover {
-    color: grey;
+    text-shadow: 0px 0px 1px black;
 }
-
 .feed-home:hover {
     color: grey;
 }
@@ -958,7 +962,7 @@
         padding-right: 12px;
     }
 
-    
+
     .lg-col-6 {
         width: 50%;
         padding-right: 12px;
@@ -1083,19 +1087,7 @@
         justify-content: center;
 
     }
-    .menulist{
-        position: fixed;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            left: -100%;
-            justify-content: center;
-            align-items: center;
-            z-index: 90;
-            background-color:black;
-    }
+
 
     .show {
         left: 0%;
@@ -1150,77 +1142,78 @@
         margin-top: 23px;
     }
 }
-    @media (min-width:576px) {
-        .pb-24 {
-            padding-bottom: 24px;
-        }
+
+@media (min-width:576px) {
+    .pb-24 {
+        padding-bottom: 24px;
+    }
+
+}
+
+@media (max-width:576px) {
+    .col-sm-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .sm-col-12 {
+        width: 100%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .flex-w {
+        flex-wrap: wrap;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+
+    .sm-pt-24 {
+        padding-top: 24px;
+    }
+
+    .input-coment {
+        font-family: "Poppins", sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        outline: none;
+        border: none;
+        width: 100%;
+        padding-left: 10px;
+        color: grey;
+    }
+
+    .firstword {
+        font-family: "Poppins", sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 49px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #2C49FE;
 
     }
 
-    @media (max-width:576px) {
-        .col-sm-12 {
-            width: 100%;
-            padding-left: 12px;
-            padding-right: 12px;
-        }
-
-        .sm-col-12 {
-            width: 100%;
-            padding-right: 12px;
-            padding-left: 12px;
-        }
-
-        .flex-w {
-            flex-wrap: wrap;
-        }
-
-        .col-sm-6 {
-            width: 50%;
-            padding-left: 12px;
-            padding-right: 12px;
-        }
-
-
-        .sm-pt-24 {
-            padding-top: 24px;
-        }
-
-        .input-coment {
-            font-family: "Poppins", sans-serif;
-            font-size: 20px;
-            font-weight: 400;
-            line-height: 30px;
-            letter-spacing: 0em;
-            outline: none;
-            border: none;
-            width: 100%;
-            padding-left: 10px;
-            color: grey;
-        }
-
-        .firstword {
-            font-family: "Poppins", sans-serif;
-            font-size: 25px;
-            font-weight: 700;
-            line-height: 49px;
-            letter-spacing: 0em;
-            text-align: left;
-            color: #2C49FE;
-
-        }
-
-        .firstword b {
-            font-family: "Poppins", sans-serif;
-            font-size: 25px;
-            font-weight: 700;
-            line-height: 49px;
-            letter-spacing: 0em;
-            text-align: left;
-            color: #01C8FF;
-        }
-
-        .nav-logo {
-            height: 30px;
-            width: 47px;
-        }
+    .firstword b {
+        font-family: "Poppins", sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 49px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #01C8FF;
     }
+
+    .nav-logo {
+        height: 30px;
+        width: 47px;
+    }
+}
