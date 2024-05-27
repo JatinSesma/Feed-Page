@@ -758,10 +758,12 @@
     line-height: 48.6px;
     margin-top: 25px;
 }
-.ten:hover svg path{
+
+.ten:hover svg path {
     fill: red;
 }
-.msg:hover svg path{
+
+.msg:hover svg path {
     fill: blue;
 }
 
@@ -896,6 +898,7 @@
 .home:hover {
     text-shadow: 0px 0px 1px black;
 }
+
 .feed-home:hover {
     color: grey;
 }
@@ -1173,6 +1176,9 @@
         padding-right: 12px;
     }
 
+    .pt-0 {
+        padding-top: 0px;
+    }
 
     .sm-pt-24 {
         padding-top: 24px;
