@@ -39,7 +39,7 @@
 
 .shadow2:hover {
     box-shadow: 8.0px 16.0px 16.0px 10px hsl(0deg 0% 0% / 0.25);
-    border: transparent;
+    border: 1px solid transparent;
 }
 
 .row {
